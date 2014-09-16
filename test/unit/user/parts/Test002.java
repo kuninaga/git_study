@@ -26,7 +26,7 @@ public class Test002 {
 	public void testRegInfDAO_UT002_001() {
 
 		ArrayList<RegistrantInfo> data = new ArrayList<RegistrantInfo>();
-		data=new ArrayList();
+		//data=new ArrayList<RegistrantInfo>();
 		
 		RegistrantInfo regInfo = new RegistrantInfo("001","鈴木太郎","35");
 		data.add(regInfo);
@@ -57,8 +57,9 @@ public class Test002 {
 	public void testRegInfDAO_UT002_002() {
 
 		ArrayList<RegistrantInfo> data = new ArrayList<RegistrantInfo>();
-		data=new ArrayList();
+
 		
+		//data=new ArrayList<RegistrantInfo>();
 		RegistrantInfo regInfo = new RegistrantInfo("001","鈴木太郎","35");
 		data.add(regInfo);
 		regInfo = new RegistrantInfo("002","Tommy","25");
@@ -92,7 +93,6 @@ public class Test002 {
 	public void testRegInfDAO_UT002_003() {
 		
 		ArrayList<RegistrantInfo> data = new ArrayList<RegistrantInfo>();
-		data=new ArrayList();
 		
 		RegistrantInfo regInfo = new RegistrantInfo("001","鈴木太郎","35");
 		data.add(regInfo);
@@ -126,7 +126,7 @@ public class Test002 {
 	public void testRegInfDAO_UT002_004() {
 		
 		ArrayList<RegistrantInfo> data = new ArrayList<RegistrantInfo>();
-		data=new ArrayList();
+		//data=new ArrayList<RegistrantInfo>();
 		
 		RegistrantInfo regInfo = new RegistrantInfo("001","鈴木太郎","35");
 		data.add(regInfo);
@@ -160,7 +160,7 @@ public class Test002 {
 	public void testRegInfDAO_UT002_005() {
 		
 		ArrayList<RegistrantInfo> data = new ArrayList<RegistrantInfo>();
-		data=new ArrayList();
+		//data=new ArrayList<RegistrantInfo>();
 		
 		dataSet002(data);
 
